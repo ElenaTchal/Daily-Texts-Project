@@ -38,8 +38,8 @@ def textmyself(daily_affirmation):
     """ Connects to Twilio's network using my unique Account SID and authorization token,
     then creates the actual text"""
     # Preset values:
-    account_sid = 'AC0af800a30c81bf3662a6c2ca3453b197'
-    auth_token = 'ee45da28dbe99d1bdc9e52d4bf85417e'
+    account_sid = #HIDDEN in Github
+    auth_token = #HIDDEN in Github
 
     # Call Client() and pass in the two variables:
     twilioCli = Client(account_sid, auth_token)
